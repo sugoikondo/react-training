@@ -51,9 +51,9 @@ export const Board = (props: BoardProps) => {
         {renderSquare(5)}
       </div>
       <div className="board-row">
-        {renderSquare(8)}
         {renderSquare(6)}
         {renderSquare(7)}
+        {renderSquare(8)}
       </div>
     </div>
   )
